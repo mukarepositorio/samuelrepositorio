@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Titan 150</title>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    margin: 0 10px;
+}
+
+section img {
+    max-width: 100%;
+    height: auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-top: 10px;
+}
+
+form input, form textarea {
+    margin-bottom: 10px;
+    padding: 8px;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Honda Titan 150</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Início</a></li>
+                <li><a href="#specs">Especificações</a></li>
+                <li><a href="#reviews">Avaliações</a></li>
+                <li><a href="#maintenance">Manutenção</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Bem-vindo ao site da Titan 150</h2>
+        <img src="images/titan-150.jpg" alt="Honda Titan 150">
+        <p>A Honda Titan 150 é conhecida por seu desempenho robusto e design elegante. Explore as informações abaixo para saber mais sobre este modelo incrível.</p>
+    </section>
+
+    <section id="specs">
+        <h2>Especificações</h2>
+        <ul>
+            <li>Motor: 149,1 cc</li>
+            <li>Potência: 12,5 cv</li>
+            <li>Torque: 1,2 kgfm</li>
+            <li>Peso: 130 kg</li>
+            <li>Consumo: 40 km/l</li>
+        </ul>
+    </section>
+
+    <section id="reviews">
+        <h2>Avaliações</h2>
+        <p>Confira o que os proprietários e especialistas têm a dizer sobre a Titan 150.</p>
+        <!-- Adicione avaliações aqui -->
+    </section>
+
+    <section id="maintenance">
+        <h2>Manutenção</h2>
+        <p>Dicas e truques para manter sua Titan 150 em ótimo estado.</p>
+        <!-- Adicione dicas de manutenção aqui -->
+    </section>
+
+    <section id="contact">
+        <h2>Contato</h2>
+        <form action="#" method="post">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Mensagem:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Titan 150. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
